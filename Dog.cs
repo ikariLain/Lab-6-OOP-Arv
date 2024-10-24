@@ -12,7 +12,7 @@ namespace Lab_6___OOP_Arv
         public string dogRace { get; set; } = "Unknown";
 
         //Ctor + bas
-        public Dog(string name, int age, string color, string birthplace, double weight, string dogRace)
+        public Dog(string name = "Unknown", int age = 0, string color = "Unknown", string birthplace = "Unknown", double weight = 0.0, string dogRace = "Unknown")
             : base(name, age, color, birthplace, weight)
         {
             this.name = name;

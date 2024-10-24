@@ -10,14 +10,10 @@ namespace Lab_6___OOP_Arv
     {
         public string tailLength { get; set; } = "Unknown";
 
-        public Chihuahua(string name, int age, string color, string birthplace, double weight, string region, string dogRace, string tailLength)
+        public Chihuahua(string name = "Unknown", int age = 0, string color = "Unknown", string birthplace = "Unknown", double weight = 0, string region = "Unknown", string dogRace = "Unknown", string tailLength = "Unknown")
            : base(name, age, color, birthplace, weight, dogRace)
         {
-            this.name = name;
-            this.age = age;
-            this.color = color;
-            this.birthplace = birthplace;
-            this.weight = weight;
+           
             this.tailLength = tailLength;
         }
 

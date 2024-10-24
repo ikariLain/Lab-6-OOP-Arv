@@ -12,7 +12,8 @@ namespace Lab_6___OOP_Arv
         static void Main(string[] args)
         {
             // Initiera objekt för Bulldog och Chihuahua med deras egenskaper
-            Bulldog bulldog = new Bulldog("Rex", 5, "Brun", "Stockholm", 25.0, "Sverige", "Bulldog");
+            Bulldog bulldog = new Bulldog("Rex" ,7, "Brun", "Stockholm", 25.0, "Sverige", "Bulldog");
+
             Chihuahua chihuahua = new Chihuahua("Tiny", 3, "Vit", "Göteborg", 5.0, "Kattala", "Chihuahua", "Kort");
 
             // Visa information om Bulldog
